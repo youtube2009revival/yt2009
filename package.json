@@ -13,7 +13,7 @@
     "frontend"
   ],
   "dependencies": {
-    "express": "latest",
+    "express": "4.21.2",
     "google-protobuf": "^3.21.2",
     "maxmind-db-reader": "^0.2.1",
     "node-fetch": "^2.6.7",
