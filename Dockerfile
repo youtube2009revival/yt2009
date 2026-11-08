@@ -35,6 +35,8 @@ ENV YT2009_PORT=80 \
     YT2009_RATELIMIT=false \
     YT2009_AC=false \
     YT2009_GDATA_AUTH=false
+  
+ENV NODE_OPTIONS=--max-http-header-size=65536
 
 RUN npm install && \
     ln -s /data/tvdata.json back/tvdata.json && \
